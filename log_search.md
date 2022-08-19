@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ## log(n) 搜索
 <font size=5>Essential of se<font color="green">**arch**</font>ing</font> --- *architecture*，好的数据结构会使搜索高效简洁<br> [jwgg课件](slides/L8.pdf)
 
