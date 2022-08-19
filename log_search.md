@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
 ## log(n) 搜索
 <font size=5>Essential of se<font color="green">**arch**</font>ing</font> --- *architecture*，好的数据结构会使搜索高效简洁<br> [jwgg课件](slides/L8.pdf)
 
@@ -22,3 +22,4 @@
 > key : 每次都独立计算$x^2$可优化，使计算代价缩减到$O(1)$ <br>
 
 - [x] [leetcode题解](https://leetcode.cn/problems/sqrtx/solution/x-de-ping-fang-gen-by-leetcode-solution/)
+</script>
