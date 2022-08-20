@@ -27,7 +27,7 @@
 ### 思考题
 - 设计计算$\lfloor \sqrt{N} \rfloor$的算法，时间复杂度要求为$O(n)$
 
-> 分析 : 若对小于$N$的整数进行二分查找，最多进行$log N = n$次查找，每次查找的代价为计算$x^2$的代价: $O(n)$次移位和加法操作，故代价为$O(n^2)$ <br>
-> key : 每次都独立计算$x^2$可优化，使计算代价缩减到$O(1)$ <br>
+分析 : 若对小于$N$的整数进行二分查找，最多进行$log N = n$次查找，每次查找的代价为计算$x^2$的代价: $O(n)$次移位和加法操作，故代价为$O(n^2)$ <br>
+key : 每次都独立计算$x^2$可优化，使计算代价缩减到$O(1)$ <br>
 
 - [x] [leetcode题解](https://leetcode.cn/problems/sqrtx/solution/x-de-ping-fang-gen-by-leetcode-solution/)
