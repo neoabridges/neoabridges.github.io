@@ -1,3 +1,4 @@
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['′,′'], ["\\(","\\)"] ], processEscapes: true } }); </script> <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ## 堆排序
 - **求堆中第k大的元素**，代价为<font color="green">只与k有关的函数</font>
 
