@@ -1,5 +1,4 @@
 # 算法设计与分析
-[经纬gg的课程主页](https://paragonlight.github.io)
 
 ### 排序
 [堆排序](heap_sort.md)
