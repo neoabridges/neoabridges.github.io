@@ -9,7 +9,7 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## log(n) 搜索
-<font size=5>Essential of se<font color="green">**arch**</font>ing</font> --- *architecture*，好的数据结构会使搜索高效简洁<br> [jwgg课件](slides/L8.pdf)
+<font size=5>Essential of se<font color="green">arch</font>ing</font> --- *architecture*，好的数据结构会使搜索高效简洁<br> [jwgg课件](slides/L8.pdf)
 
 ### 常见的log(n)搜索方式
 
@@ -18,7 +18,7 @@
 
 ### Red-Black-Tree
 -  **红黑树的高度** <br> 
-对于有<font color="blue">n个**内部节点**</font>的红黑树，不存在黑色高度大于<font color="purple">log(n+1)</font>的节点；同时该红黑树的普通高度不超过<font color="purple">2log(n+1)</font>；基于红黑树的查找代价为<font color="purple">O(log n)</font>。
+对于有<font color="blue">n个内部节点</font>的红黑树，不存在黑色高度大于<font color="purple">log(n+1)</font>的节点；同时该红黑树的普通高度不超过<font color="purple">2log(n+1)</font>；基于红黑树的查找代价为<font color="purple">O(log n)</font>。
 
 - **向红黑树中insert和delete元素** <br>
 [参考解析link](https://www.cnblogs.com/fingerdancing/archive/2013/04/14/rbTree.html)🙋 <br> 
