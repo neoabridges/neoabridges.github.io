@@ -8,6 +8,8 @@
 </script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+{% include toc.html html=content %}
+
 # Search Problems
 - （**最大的k个元素**），给定有n个数的集合，现要求其中前k大的k个数（要求排好序），请设计多种基于比较的算法，使其最坏情况时间复杂度满足下列要求：<br>(1) $O(nlogn)$ <br> (2) $O(n+klogn)$ <br> (3) $O(n+k^2)$ <br> (4) $O(n+klogk)$ 
 
