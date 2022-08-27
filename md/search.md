@@ -52,7 +52,7 @@ $$
 > 2.  找出每组中位数，共$\lceil \frac{n}{5} \rceil$个
 > 3.  对这$\lceil \frac{n}{5} \rceil$个中位数递归地使用**SELECT-WLINEAR**找出其中的中位数$m^{*}$
 > 4.  基于<font color="purple">$m^{*}$ </font> 对所有元素进行划分，假设有$x-1$个元素小于$m^{ * }$ ，$n-x$ 个元素大于$ m^{ * } $
-> 5.  *case* $k = x$ : <font color="RoyalBlue"> *return* $m^{*}$ </font> <br>
+> 5.  *case* $k = x$ : <font color="RoyalBlue"> return $m^{*}$ </font> <br>
 >    *case* $k < x$ : <font color="RoyalBlue">对小于$m^{*}$ 的元素</font> 递归地调用**SELECT-WLINEAR**查找阶为$k$的元素 <br>
 >    *case* $k > x$ : <font color="RoyalBlue">对大于$m^{*}$ 的元素</font> 递归地调用**SELECT-WLINEAR**查找阶为$k-x$的元素 <br>      
     
